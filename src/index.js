@@ -1,1 +1,1 @@
-console.log("Hello, Restaurant Page!");
+import home from './home.js';
