@@ -6,14 +6,14 @@ const contact = () => {
         contactTitle.textContent = 'Contact Us';
 
     const contactEmail = document.createElement('p');
-        contactEmail.textContent = 'Email: contact@restaurant.com';
+        contactEmail.innerHTML = '<strong>Email:</strong> contact@restaurant.com';
     const contactPhone = document.createElement('p');
-        contactPhone.textContent = 'Phone: (123) 456-7890';
+        contactPhone.innerHTML = '<strong>Phone:</strong> (123) 456-7890';
     const contactAddress = document.createElement('p');
-        contactAddress.textContent = 'Address: 123 Pink Street, Pink City, PC 12345';
+        contactAddress.innerHTML = '<strong>Address:</strong> 123 Pink Street, Pink City, PC 12345';
     const contactHours = document.createElement('p');
-        contactHours.textContent = 'Hours: Mon-Fri 12pm-9pm, Sat-Sun 12pm-6pm';
-        
+        contactHours.innerHTML = '<strong>Hours:</strong> Mon-Fri 12pm-9pm, Sat-Sun 12pm-6pm';
+
     content.appendChild(contactTitle);
     content.appendChild(contactEmail);
     content.appendChild(contactPhone);

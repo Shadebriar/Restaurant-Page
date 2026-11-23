@@ -1,0 +1,40 @@
+body {
+    background-color: #FFCCFF;
+}
+
+nav {
+    background-color: #FF33CC;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #FF33CC;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+h1 {
+    color: #FF33CC;
+    text-align: center;
+}
+
+.home-image {
+    max-width: 20%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.home-description {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+h2 {
+    color: #FF33CC;
+}
+
